@@ -45,6 +45,7 @@ def create_combobox_widget(name, options, label, default_value=""):
 def get_widget_value(widget_name):
     return _dbutils.widgets.get(widget_name)
 
+
 def _resolve_display():
     return _ipython.user_ns["display"]
 
